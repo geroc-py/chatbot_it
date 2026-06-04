@@ -10,7 +10,7 @@ Alumno: Cardoso, Gerónimo José | Comisión: M2026-13
 
 Simulación de un chatbot de consola que automatiza el proceso de **Soporte Técnico Nivel 1** de la empresa ficticia *System32 IT S.A.*, reemplazando un proceso manual e ineficiente por un flujo estandarizado según la metodología **BPMN 2.0**.
 
-El programa implementa una **Máquina de Estados Finitos (FSM)** que reproduce fielmente el diagrama BPMN diseñado, incluyendo dos compuertas de decisión (Gateways), validación de datos, persistencia en base de datos JSON y manejo de errores de entrada (camino infeliz).
+El programa implementa una **Máquina de Estados Finitos (FSM)** que reproduce el diagrama BPMN diseñado, incluyendo dos Gateways, validación de datos, persistencia en base de datos JSON y manejo de errores de entrada (camino infeliz).
 
 ---
 
@@ -131,4 +131,4 @@ Legajos de prueba disponibles: `1001`, `1002`, `1003`, `1004`, `1005`
 - **Plataforma:** Consola (simulador de proceso)
 - **Base de datos:** JSON (archivo local)
 - **Modelado de procesos:** BPMN 2.0 — [bpmn.io](https://bpmn.io)
-- **IA utilizada en el desarrollo:** Claude (Anthropic)
+- **IA utilizada en el desarrollo:** Claude.ai
