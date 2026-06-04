@@ -1,0 +1,81 @@
+{
+  "empresa": {
+    "nombre": "System32 IT S.A.",
+    "departamento_soporte": "Soporte Técnico Nivel 1",
+    "horario_atencion": "Lunes a Viernes 8:00 - 18:00"
+  },
+
+  "usuarios": [
+    {
+      "legajo": "1001",
+      "nombre": "Juan Pérez",
+      "sector": "Administración",
+      "email": "j.perez@system32it.com"
+    },
+    {
+      "legajo": "1002",
+      "nombre": "María López",
+      "sector": "Contabilidad",
+      "email": "m.lopez@system32it.com"
+    },
+    {
+      "legajo": "1003",
+      "nombre": "Carlos Rodríguez",
+      "sector": "Recursos Humanos",
+      "email": "c.rodriguez@system32it.com"
+    },
+    {
+      "legajo": "1004",
+      "nombre": "Ana Gómez",
+      "sector": "Ventas",
+      "email": "a.gomez@system32it.com"
+    },
+    {
+      "legajo": "1005",
+      "nombre": "Luis Martínez",
+      "sector": "Logística",
+      "email": "l.martinez@system32it.com"
+    }
+  ],
+
+  "respuestas_hardware": {
+    "descripcion": "Guía de configuración para problemas de hardware",
+    "pasos": [
+      "1. Verificar que el equipo esté correctamente enchufado y encendido.",
+      "2. Reiniciar el equipo y observar si el problema persiste.",
+      "3. Comprobar conexiones de cables (monitor, teclado, mouse, red).",
+      "4. Verificar que los periféricos estén correctamente conectados.",
+      "5. Revisar si hay mensajes de error en el arranque del sistema."
+    ],
+    "pregunta_resolucion": "¿El problema fue resuelto con alguno de estos pasos?"
+  },
+
+  "respuestas_software": {
+    "descripcion": "Diagnóstico para problemas de software",
+    "pasos": [
+      "1. Cerrar y volver a abrir la aplicación con el problema.",
+      "2. Reiniciar el equipo e intentar nuevamente.",
+      "3. Verificar que el software esté actualizado a la última versión.",
+      "4. Revisar si hay suficiente espacio en disco (mínimo 10% libre).",
+      "5. Desactivar temporalmente el antivirus y probar si el problema persiste."
+    ],
+    "pregunta_resolucion": "¿El problema fue resuelto con alguno de estos pasos?"
+  },
+
+  "mensajes_bot": {
+    "bienvenida": "Bienvenido al sistema de Soporte Técnico de System32 IT S.A. Soy el asistente virtual de IT. ¿En qué puedo ayudarte hoy?",
+    "solicitar_legajo": "Por favor, ingresá tu número de legajo para continuar:",
+    "solicitar_nombre": "Por favor, ingresá tu nombre completo:",
+    "solicitar_descripcion": "Describí brevemente el problema que estás experimentando:",
+    "seleccionar_tipo": "¿El problema es de Hardware o Software?\n  1. Hardware (monitor, teclado, mouse, impresora, etc.)\n  2. Software (aplicaciones, sistema operativo, errores en pantalla, etc.)",
+    "ticket_generado": "Tu ticket fue registrado correctamente.",
+    "problema_resuelto": "¡Perfecto! Nos alegra que el problema haya sido resuelto. El ticket será cerrado. ¡Hasta pronto!",
+    "escalar_nivel2": "Lamentamos que el problema no haya podido resolverse. Tu caso será escalado al equipo de Soporte Nivel 2. Te contactarán a la brevedad. Ticket escalado correctamente.",
+    "error_legajo": "El legajo ingresado no fue encontrado. Por favor, verificá el número e intentá nuevamente.",
+    "error_tipo": "Opción inválida. Por favor, ingresá 1 para Hardware o 2 para Software.",
+    "error_vacio": "El campo no puede estar vacío. Por favor, ingresá la información requerida.",
+    "error_resolucion": "Opción inválida. Por favor, ingresá S para Sí o N para No."
+  },
+
+  "tickets": []
+}
